@@ -77,4 +77,8 @@ DerivedDataCache/*
 #exclude StarterContent
 Content/StarterContent
 
+#exclude Assets
+Content/Assets
 
+#exclude Geometry
+Content/Geometry

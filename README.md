@@ -68,8 +68,21 @@ Set defaultPawn =>VRPawn
 Modification licence projet
 GNU Gpl V3
 
-# 09/02/2018
-Update 
-VRPawn
-VRGrabber
-VRTeleporter
+
+# 25/07/17 16h00
+Finalise VRTeleoprt<br/>
+Set VRTeleport "Ray"<br/>
+Set VRTeleport "Arc"<br/>
+Set VRTeleport "Marker"<br/>
+Set VRPawn blueprint (VRTeleporter)<br/>
+Set parameters VR Teleport Beam parameters "parametres du faisceau de teleportation"<br/>
+Set parameters Teleport Target Parameters "parametres de teleportation"<br/>
+
+# 25/07/17 18h45
+Create VRGrabber
+Create class Grabber
+Set Grabber Objet
+Set Blueprint PawnVR + Grabber
+Test MO Ok
+TODO unit test + physicsHandle
+
